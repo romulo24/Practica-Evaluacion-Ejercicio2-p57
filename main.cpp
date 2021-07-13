@@ -1,3 +1,11 @@
+
+/*
+* GRUPO TECH
+* Evaluacion Practica Segundo Bimestre C++
+* Autor: Est Torres LLivipuma Romulo Jesus <rtorresll@est.ups.edu.ec>
+* Universidad Politecnica Salesiana
+* Ejercicio 2
+*/
 #include <iostream>
 #define valorBN 0.06
 #define valorColor 0.12
@@ -24,9 +32,11 @@ int main()
                 if(opc>0 && opc<=2)
                     switch (opc) {
                     case 1:
+
                         contador=contadorF-contadorI;
                         precio=contador*valorBN;
                         break;
+
                     case 2:
 
                         contador=contadorF-contadorI;
